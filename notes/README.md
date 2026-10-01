@@ -6,7 +6,7 @@ O notes funciona como um ambiente, onde será anexado os resumos, textos, explic
 
 ---
 
-# Estrutura do repositório
+## Estrutura do repositório
 ```text
 java-lab/
     └── notes/
@@ -17,4 +17,4 @@ java-lab/
 ```
 Essa estrutura é apenas um exemplo do modelo do diretório, os nomes dos documentos **md** podem ser renomeados, para que facilitem a sistematização das anotações e modulação dos conteúdos. 
 
-Os [exercícios](../exercices), [experimentos](../experiments/), [prática](../practice/) e [desafios](../challenges/) que serão propostos nas anotações e nos conteúdos, estarão dísponiveis em seus respetivos diretórios.
+Os [exercícios](../exercices), [experimentos](../experiments), [prática](../practice) e [desafios](../challenges) que serão propostos nas anotações e nos conteúdos, estarão dísponiveis em seus respetivos diretórios.
