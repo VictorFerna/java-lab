@@ -40,31 +40,31 @@ java-lab/
 ```
 A organização interna de cada diretório é documentada em seu respectivo **README.md**.
 
-### `notes/`
+### [`notes/`](/notes/)
 
 Anotações organizadas sobre os conteúdos estudados.
 
 Aqui ficam explicações, conceitos importantes, exemplos e observações sobre Java, JVM, orientação a objetos e outros assuntos relacionados ao ecossistema da linguagem.
 
-### `exercises/`
+### [`exercises/`](/exercices/)
 
 Exercícios desenvolvidos durante os estudos.
 
 O objetivo desta seção é reforçar os conceitos apresentados nas anotações por meio da resolução de problemas específicos.
 
-### `practice/`
+### [`practice/`](/practice/)
 
 Implementações práticas um pouco mais completas.
 
 Enquanto os exercícios normalmente trabalham conceitos isolados, esta seção busca combinar diferentes conhecimentos em programas e situações mais próximas do desenvolvimento real.
 
-### `challenges/`
+### [`challenges/`](/challenges/)
 
 Desafios utilizados para testar conhecimento e raciocínio.
 
 Eles podem envolver algoritmos, orientação a objetos, estruturas de dados, APIs da linguagem, refatoração e resolução de problemas mais complexos.
 
-### `experiments/`
+### [`experiments/`](/experiments/)
 
 Área destinada à experimentação.
 
