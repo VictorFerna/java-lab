@@ -11,13 +11,13 @@ O objetivo dessa seção é reforçar os conceitos anotados e estudados, aplican
 java-lab/
     └── exercices/
             ├── tipos de dados/
-            │       └──dados.java
+            │       └── dados.java
             │       └── README.md
             ├── estrutura de repetição/
-            │       └──repetição.java
+            │       └── repetição.java
             │       └── README.md
             ├── estrutura de decisão/
-            │       └──decisão.java
+            │       └── decisão.java
             │       └── README.md
             └── etc...
 ```

@@ -1,4 +1,4 @@
-## Experiments
+# Experiments
 
 Diretório destinado à experimentação de conceitos, ferramentas, bibliotecas integradas dentro do ecossistema **Java**.
 
@@ -21,16 +21,16 @@ O objetivo é experimentar, observar e compreender. Não necessariamente experim
 java-lab/
     └── experiments/
             ├── strings/
-            │       └──StringPoolExperiment.java
+            │       └── StringPoolExperiment.java
             │       └── README.md
             ├── memory/
-            │       └──GarbageCollectorTest.java
+            │       └── GarbageCollectorTest.java
             │       └── README.md
             ├── collections/
-            │       └──HashMapExperiment.java
+            │       └── HashMapExperiment.java
             │       └── README.md
             └── etc...
 ```
 Essa estrutura é apenas um exemplo do modelo do diretório, os nomes dos documentos **md** podem ser renomeados, para que facilitem a sistematização das anotações e modulação dos conteúdos.
 
-Os README.md dentro das pastas de cada experimento será utilizado, como a documentação do experimento, Oque estamos tentando descobrir, o resultado experado, resultado prático, aprendizados. 
+Os README.md dentro das pastas de cada experimento será utilizado como a documentação do experimento, Oque estamos tentando descobrir, o resultado experado, resultado prático, aprendizados.
