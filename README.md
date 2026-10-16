@@ -8,7 +8,7 @@ A proposta não é apenas armazenar códigos prontos, mas registrar o processo d
 
 ## Objetivo
 
-Este repositório foi criado com o objetivo de construir uma base sólida em Java por meio de estudo progressivo e aplicação prática.
+Este repositório foi criado como o objetivo de construir uma base sólida em Java por meio de estudo progressivo e aplicação prática.
 
 Ao longo do desenvolvimento do repositório serão abordados desde os fundamentos da linguagem até conceitos mais avançados utilizados no desenvolvimento profissional de software.
 
@@ -54,13 +54,13 @@ O objetivo desta seção é reforçar os conceitos apresentados nas anotações 
 
 ### [`practice/`](/practice/)
 
-Implementações práticas um pouco mais completas.
+Implementações práticas um pouco mais completa.
 
 Enquanto os exercícios normalmente trabalham conceitos isolados, esta seção busca combinar diferentes conhecimentos em programas e situações mais próximas do desenvolvimento real.
 
 ### [`challenges/`](/challenges/)
 
-Desafios utilizados para testar conhecimento e raciocínio.
+Desafios utilizados para testar o conhecimento e raciocínio.
 
 Eles podem envolver algoritmos, orientação a objetos, estruturas de dados, APIs da linguagem, refatoração e resolução de problemas mais complexos.
 
