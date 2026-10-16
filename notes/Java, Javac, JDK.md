@@ -6,7 +6,7 @@ Java é frequentimente ensinado como uma sequência de palavras-chave: classe, o
 
 No ínicio da década de 90, uma equipe da Sun Microsystems liderada por James Gosling trabalhou no green project, voltado a software para dispositivos **eletrônicos heterogêneos**.
 ```text
-Eletrônicos heterogêneos: São aparelhos ou sistemas que combinam diferentes tipos de componentes de processamento ou tecnologias em uma única estrutura para executar tarefas específicas com mais eficiência.
+Eletrônicos heterogêneos: são equipamentos que podem possuir diferentes arquiteturas de processadores, componentes e sistemas, dificultando a execução de um mesmo programa em todos eles.
 ```
 Assim a linguagem **OAK** foi criada, o problema central era executar software em equipamento com processadores e sistemas distintos sem ter que recompilar toda aplicação para cada alvo.
 Com a popularização da **Web**, a premissa de um código intermediário portátil tornou-se atraente para distribuição de programas pela rede. Oak foi renomeada para **Java** e apresentada publicamente em 1995, com o slogan ***"Write once, run anywhere"***, isso não significa que Java roda magicamente em qualquer dispositivo: depedências nativas, sistemas de arquivos, codificação, UI e comportamento externo ainda importam. 
@@ -74,15 +74,18 @@ Nesse caso, o programa gerado depende da arquitetura utilizada durante a compila
 
 No Java, existe uma etapa intermediária:
 ```text
-Código-fonte Java
-       ↓
-      javac
-       ↓
-Bytecode Java
-       ↓
+Código-fonte (.java)
+        ↓
+       javac
+        ↓
+Arquivo .class
+(contém bytecode)
+        ↓
        JVM
-       ↓
-Código executável pela máquina
+        ↓
+Interpretação / JIT
+        ↓
+Execução na máquina
 ```
 Portanto, o mesmo arquivo **.class** pode ser utilizado em diferentes plataformas, desde que exista naquela plataforma uma **JVM** capaz de interpretar corretamente a versão e o formato daquele bytecode.
 
@@ -202,6 +205,8 @@ código de máquina nativo
 O código gerado pelo JIT já pode ser específico para a arquitetura atual.
 
 Se a aplicação estiver executando em x86-64, a JVM pode produzir instruções nativas para x86-64. Se estiver executando em ARM64, outra implementação da JVM poderá gerar código apropriado para ARM64. Isso permite que o Java mantenha um formato intermediário portátil e, ao mesmo tempo, obtenha otimizações específicas da máquina durante a execução.
+
+Portanto, o JIT não é uma etapa obrigatória para que o programa funcione. Ele é um mecanismo de compilação dinâmica utilizado por determinadas implementações da JVM para otimizar a execução.
 
 ---
 
